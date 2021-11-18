@@ -147,6 +147,11 @@ border-bottom: none;
     width: 100%;
   }
 }
+@media(min-width: 1201px) and (max-width: 1399px) {
+  .edit-story .edit-wrapper {
+    width: 100%;
+  }
+}
 /* ----------------  responsive part end--------------- */
 
 
