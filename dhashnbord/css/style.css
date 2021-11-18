@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+    padding: 0;
+}
+body{
+  overflow-x: hidden;
+  font-family: 'Nunito', sans-serif;
+}
+.main{
+    display: flex;
+}
+
+/* ----------------  edit story part start--------------- */
+.edit-story{
+  padding: 40px 0px;
+  width: 100%;
+  background: #ddd;
+}
+.edit-story .edit-wrapper{
+  width: 1200px;
+  background: #fff;
+  margin: 0 auto;
+
+}
+
+
+
+.edit-story .title h4 {
+  font-size: 18px;
+  border-bottom: 1px solid #dee2e6;
+  color: #2c3e50;
+  padding: 20px;
+  font-weight: 500;
+}
+.edit-story form {
+	margin: 20px;
+}
+.edit-story .left-side input {
+  width: 100%;padding: 10px;
+  border-radius: 5px;
+  border-color: #9f9f9f;
+  margin-bottom: 20px;
+}
+
+.edit-story .textarea-title {border: 1px solid #979797;
+padding: 10px;
+height: 65px;
+border-bottom: none;
+}
+.edit-story textarea {
+  width: 100%;
+  height: 175px;
+  resize: none;
+}
+
+
+
+.right-side h3 {
+  font-size: 24px;
+  border-bottom: 1px solid #dee2e6;
+  color: #2c3e50;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.right-side select {
+  margin-top: 20px;
+  padding: 10px;
+  color: #444;
+  margin-bottom: 15px;
+}
+.check-box .form-check-input {
+  display: inline-block;
+  margin: 4px;
+}
+.check-box .tag {
+  width: 100%;
+}
+.check-box input {
+	padding: 7px;
+  display: block;
+  margin-top: 10px;
+}
+
+
+.right-side label {
+	color: #2c3e50;
+	font-weight: 500;
+}
+.edit-btn{
+  width: 100%;
+  padding: 20px 0px;
+  text-align: right;
+  border-top: 1px solid #dee2e6;
+}
+.edit-btn button {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background: #888;
+  font-weight: 600;
+}
+
+.edit-btn button:last-child{
+  background-color: #3b5998;
+}
+/* ----------------  edit story part end--------------- */
+/* ----------------  responsive part start --------------- */
+
+@media(min-width: 320px) and (max-width: 575px) {
+  .edit-story .edit-wrapper {
+    width: 100%;
+  }
+  .edit-btn {
+    text-align: center;
+  }
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+  .edit-story .edit-wrapper {
+    width: 100%;
+  }
+  .edit-btn {
+    text-align: center;
+  }
+}
+@media(min-width: 768px) and (max-width: 991px) {
+  .edit-story .edit-wrapper {
+    width: 100%;
+  }
+  .edit-btn {
+    text-align: center;
+  }
+}
+@media(min-width: 992px) and (max-width: 1200px) {
+  .edit-story .edit-wrapper {
+    width: 100%;
+  }
+}
+/* ----------------  responsive part end--------------- */
+
+
+
+
+
